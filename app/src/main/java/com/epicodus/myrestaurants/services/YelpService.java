@@ -1,4 +1,6 @@
-package com.epicodus.myrestaurants;
+package com.epicodus.myrestaurants.services;
+
+import com.epicodus.myrestaurants.Constants;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -14,6 +16,7 @@ import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
+import com.epicodus.myrestaurants.models.Restaurant;
 import se.akerfeldt.okhttp.signpost.OkHttpOAuthConsumer;
 import se.akerfeldt.okhttp.signpost.SigningInterceptor;
 
