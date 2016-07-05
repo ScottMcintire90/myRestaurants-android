@@ -17,9 +17,7 @@ import java.util.ArrayList;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by Guest on 7/5/16.
- */
+
 public class RestaurantListAdapter extends RecyclerView.Adapter<RestaurantListAdapter.RestaurantViewHolder> {
     private ArrayList<Restaurant> mRestaurants = new ArrayList<>();
     private Context mContext;
